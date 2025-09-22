@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!doctype html&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;meta charset="utf-8" /&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;title&gt;Steve's Demon Slayer&lt;/title&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">:root{</p>
+<p class="p2"><br></p>
+<p class="p1">--bg:#0f1724; --card:#0b1220; --accent:#ef4444; --muted:#9aa4b2; --glass: rgba(255,255,255,0.04);</p>
+<p class="p2"><br></p>
+<p class="p1">--radius:12px; --gap:16px;</p>
+<p class="p2"><br></p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">*{box-sizing:border-box}</p>
+<p class="p2"><br></p>
+<p class="p1">body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#e6eef8; background:linear-gradient(180deg,#061024 0%, #081126 60%); min-height:100vh; display:flex; align-items:center; justify-content:center; padding:32px}</p>
+<p class="p2"><br></p>
+<p class="p1">.card{width:100%; max-width:860px; background:linear-gradient(180deg,var(--card), rgba(7,12,20,0.9)); border-radius:var(--radius); padding:28px; box-shadow: 0 10px 30px rgba(2,6,23,0.6); border:1px solid rgba(255,255,255,0.03)}</p>
+<p class="p2"><br></p>
+<p class="p1">h1{margin:0 0 10px 0; font-size:28px; letter-spacing:-0.5px}</p>
+<p class="p2"><br></p>
+<p class="p1">p.lead{margin:0 0 22px 0; color:var(--muted)}</p>
+<p class="p2"><br></p>
+<p class="p1">.buttons{display:grid; grid-template-columns: repeat(auto-fit,minmax(140px,1fr)); gap:var(--gap)}</p>
+<p class="p2"><br></p>
+<p class="p1">.btn{display:inline-flex; align-items:center; justify-content:center; gap:10px; padding:12px 14px; background:var(--glass); border-radius:10px; text-decoration:none; color:inherit; border:1px solid rgba(255,255,255,0.04); transition:transform .12s ease, background .12s ease;}</p>
+<p class="p2"><br></p>
+<p class="p1">.btn:hover{transform:translateY(-4px); background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.03))}</p>
+<p class="p2"><br></p>
+<p class="p1">.btn:active{transform:translateY(-1px)}</p>
+<p class="p2"><br></p>
+<p class="p1">.btn .dot{width:10px; height:10px; border-radius:50%; background:var(--accent); box-shadow:0 4px 10px rgba(239,68,68,0.18)}</p>
+<p class="p2"><br></p>
+<p class="p1">footer{margin-top:18px; color:var(--muted); font-size:13px}</p>
+<p class="p2"><br></p>
+<p class="p1">@media (max-width:420px){h1{font-size:20px}}</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;main class="card"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h1&gt;Steve's Demon Slayer&lt;/h1&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p class="lead"&gt;Click a button to open the corresponding PDF. (Files expected next to this page: &lt;code&gt;demon-one.pdf&lt;/code&gt; … &lt;code&gt;demon-five.pdf&lt;/code&gt;)&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="buttons" role="group" aria-label="Demon PDFs"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;a class="btn" href="demon-one.pdf" target="_blank" rel="noopener noreferrer" download aria-label="Open Demon One PDF"&gt;&lt;span class="dot" aria-hidden="true"&gt;&lt;/span&gt; Demon One&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;a class="btn" href="demon-two.pdf" target="_blank" rel="noopener noreferrer" download aria-label="Open Demon Two PDF"&gt;&lt;span class="dot" aria-hidden="true"&gt;&lt;/span&gt; Demon Two&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;a class="btn" href="demon-three.pdf" target="_blank" rel="noopener noreferrer" download aria-label="Open Demon Three PDF"&gt;&lt;span class="dot" aria-hidden="true"&gt;&lt;/span&gt; Demon Three&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;a class="btn" href="demon-four.pdf" target="_blank" rel="noopener noreferrer" download aria-label="Open Demon Four PDF"&gt;&lt;span class="dot" aria-hidden="true"&gt;&lt;/span&gt; Demon Four&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;a class="btn" href="demon-five.pdf" target="_blank" rel="noopener noreferrer" download aria-label="Open Demon Five PDF"&gt;&lt;span class="dot" aria-hidden="true"&gt;&lt;/span&gt; Demon Five&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">&lt;footer&gt;If you get a 404 when opening a PDF, make sure the file names exactly match (including dashes and lowercase) and that the files are in the same folder as this page.&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/html&gt;</p>
+<p class="p2"><br></p>
+</body>
+</html>
